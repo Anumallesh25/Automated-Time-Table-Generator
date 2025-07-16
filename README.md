@@ -34,4 +34,29 @@
   <li>Open your browser and access localhost at port http://127.0.0.1:8000/</li>
 </ol>
 
+How It Works
+User inputs:
+Number of classes
+Subjects and teacher availability
+Time slots per day/week
+JavaScript processes the input to:
+Allocate subjects across available slots
+Avoid overlaps for teachers
+Generate a clean, readable timetable
+
+Output:
+Timetable displayed in tabular form
+Option to export/print
+
+Project Structure
+
+timetable-generator/
+│
+├── index.html            # Main HTML file
+├── style.css             # Styling for the app
+├── script.js             # JavaScript logic for generating timetable
+├── assets/               # Optional images/icons
+└── README.md             # Project documentation
+
+
 
